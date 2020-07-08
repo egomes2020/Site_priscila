@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Depilação - Beauty Designer</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="Scss/style.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="Scss/materialize.css">
+</head>
+<body>
+    <!-- HEADER-->
+    <header id="home" class="scrollspy">
+        <div class="navbar-fixed">
+        <nav class="">
+            <div class="nav-wrapper container">
+            <a href="#" class="brand-logo"><img id="logo-main" src="imagens/logo/Capturar-logo2.PNG" width="300px" height="110px"  alt=""></a>
+            <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="hvr-underline-from-center" href="index.html#home">Home</a></li>
+                <li><a class="hvr-underline-from-center" href="index.html#sobre">Sobre</a></li>
+                <li><a class="hvr-underline-from-center" href="index.html#galeria">Trabalhos</a></li>
+                <li><a class="hvr-underline-from-center" href="index.html#contato">Contato</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-menu">
+                <li><a class="hvr-underline-from-center" href="#">Home</a></li>
+                <li><a class="hvr-underline-from-center" href="#">Sobre</a></li>
+                <li><a class="hvr-underline-from-center" href="#">Trabalhos</a></li>
+                <li><a class="hvr-underline-from-center" href="#">Contato</a></li>
+            </ul>
+            </div>
+        </nav>
+        </div>
+    </header>
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+
+    <!-- Script JS/Jquery -->
+    <script>
+        $(document).ready(function(){
+            // collapse button
+            $('.button-collapse').sideNav();
+
+            // slider
+            $('.slider').slider();
+
+            // carousel
+            $('.carousel').carousel();
+
+            // parallax
+            $('.parallax-trigger').parallax();
+
+            // scrollSpy
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+
+</body>
+</html>

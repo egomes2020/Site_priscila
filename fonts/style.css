@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Arizonia|Audiowide|Bad+Script|Cookie|Dancing+Script|Gothic+A1|Great+Vibes|Handlee|Indie+Flower|Kalam|Kaushan+Script|La+Belle+Aurore|Marck+Script|Merienda|Montserrat|Oregano|Parisienne|Poiret+One|Poppins|Raleway|Satisfy|UnifrakturMaguntia|Work+Sans&display=swap');
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+	font-size: 30pt;
+	background-color: #606060;
+}
+
+h1 {
+	text-align: center;
+	margin: 30px;
+	color: #f1f1f1;
+	font-size: 40pt;
+	font-family: 'Merienda', cursive;
+}
+
+li {
+	margin-top: 20px;
+}
+
+.coluna1 {
+	margin: 0 auto;
+	/*height: 100vh;*/
+}
+
+.fonts {
+	list-style: none;
+	padding: 30px;
+	background-color: #f1f1f1;
+}
+
+.greatvibes {
+	font-family: 'Great Vibes', cursive;
+}
+
+.kalam {
+	font-family: 'Kalam', cursive;
+}
+
+.cookie {
+	font-family: 'Cookie', cursive;
+}
+
+.kaushan {
+	font-family: 'Kaushan Script', cursive;
+}
+
+.oregano {
+	font-family: 'Oregano', cursive;
+}
+
+.labelle {
+	font-family: 'La Belle Aurore', cursive;
+}
+
+.unifrak {
+	font-family: 'UnifrakturMaguntia', cursive;
+}
+
+.raleway {
+	font-family: 'Raleway', sans-serif;
+}
+
+.poppins {
+	font-family: 'Poppins', sans-serif;
+}
+
+.work {
+	font-family: 'Work Sans', sans-serif;
+}
+
+.indie {
+	font-family: 'Indie Flower', cursive;
+}
+
+.dancing {
+	font-family: 'Dancing Script', cursive;
+}
+
+.satisfy {
+	font-family: 'Satisfy', cursive;
+}
+
+.gothic {
+	font-family: 'Gothic A1', sans-serif;
+}
+
+.alegreya {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.poiret {
+	font-family: 'Poiret One', cursive;
+}
+
+.handlee {
+	font-family: 'Handlee', cursive;
+}
+
+.marck {
+	font-family: 'Marck Script', cursive;
+}
+
+.merienda {
+	font-family: 'Merienda', cursive;
+}
+
+.audio {
+	font-family: 'Audiowide', cursive;
+}
+
+.mont {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.bad {
+	font-family: 'Bad Script', cursive;
+}
+
+.paris {
+	font-family: 'Parisienne', cursive;
+}
+
+.arizonia {
+	font-family: 'Arizonia', cursive;
+}
+
+
+
+
+/*
+LOGO SAMPLES
+*/
+
+
+.fonts2 {
+	list-style: none;
+	padding: 30px;
+	background-color: #121111;
+	color: #f1f1f1;
+}
+
+span {
+	color: darkred;
+	/*text-shadow: .5px .5px 1px #888888;*/
+}
+
+.sample1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 40pt;
+}
+
+span.a {
+	font-family: 'Great Vibes', cursive;
+	font-size: 30pt;
+
+}
+
+.sample2 {
+	font-family: 'Merienda', cursive;
+	font-size: 40pt;
+}
+
+span.b {
+	font-family: 'Dancing Script', cursive;
+	font-size: 30pt;
+}
+
+.sample3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40pt;
+}
+
+span.c {
+	font-family: 'Arizonia', cursive;
+	font-size: 30pt;
+}
+
+.sample4 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 40pt;
+}
+
+span.d {
+	font-family: 'Parisienne', cursive;
+	font-size: 30pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

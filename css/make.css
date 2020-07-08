@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Arizonia|Audiowide|Bad+Script|Cookie|Dancing+Script|Gothic+A1|Great+Vibes|Handlee|Indie+Flower|Kalam|Kaushan+Script|La+Belle+Aurore|Marck+Script|Merienda|Montserrat|Oregano|Parisienne|Poiret+One|Poppins|Raleway|Satisfy|UnifrakturMaguntia|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|EB+Garamond|Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|EB+Garamond|Nanum+Myeongjo|Questrial&display=swap');
+/*
+GERAL
+*/
+
+
+section {
+	width: 100%;
+/*	height: 100vh;*/
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+}
+
+ul.make {
+	width: 1000px;
+	margin: 10px auto;
+	list-style: none;
+	/*border: solid 2px #fff;*/
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+li.img_make {
+	width: 250px;
+	height: 250px;
+	/*border: solid 2px #fff;*/
+	margin: 15px;
+}
+
+
+div.make {
+	width: 400px;
+	height: 300px;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 25%, rgba(0,0,0,1)),
+						url("../imagens/make/make09.jpg");
+	background-position: center;
+	/* border: solid 3px white; */
+	margin: -250px auto 50px 650px;					
+}
+
+li.img_make > a >img.foto {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+
+div.fundo_make {
+	width: 350px;
+	height: 200px;
+	background-color:black;
+	margin-top: 50px;
+	margin-left: 310px;
+	/* border: solid 3px white; */
+	padding: 10px;
+	text-align: center;
+}
+
+li.img_make > a > img {
+	transition: .3s;
+}
+
+.img_make > a > img.foto:hover {
+	box-shadow: 0px 0px 10px #fff;
+	transform: scale(1.1)
+}
+
+
+
+
+/* 
+ICONES REDE SOCIAL
+*/
+.icones {
+	/*border: solid 2px #f1f1f1;*/
+	width: 700px;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 100px;
+	margin-left: 350px;
+}
+
+
+.icones > a > .social > img {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 13px;
+}
+
+.social {
+	width: 65px;
+	height: 65px;
+	border-radius: 100px;
+	/*border: solid 2px #f1f1f1;*/
+}
+
+#foto_perfil {
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	border: solid 1px #f1f1f1;
+	background: url("../imagens/pri1.jpg") no-repeat;
+	background-size: contain;
+
+}
+
+.face {
+	background-color: #2372a3;
+}
+
+.insta {
+	background-color: #C7106A;
+}
+
+.twitter {
+	background-color: #5FA6E2;
+}
+
+.you {
+	background-color: #D81C1C
+}
+
+
+
+
+
+
+
+
+
+/*
+LIGHTBOX
+*/
+
+img.min  {
+	width: 5px;
+	height: 5px;
+}
+
+.lbox {
+	visibility: hidden;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* 	overflow: hidden; */
+	width: 20px;
+	height: 20px;
+	position: absolute;
+
+}
+
+.lbox:target {
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(10,10,10,.9);
+	position: fixed;
+	overflow-block: inherit; 
+}
+
+.lbox:target img {
+	width: 550px;
+	height: 450px;
+	background-size: cover;
+	transition: .3s ;
+}
+
+.lbox:target .box_img2 img.min2 {
+	width: 260px;
+	height: 210px;
+	margin-left: 25px;
+}
+
+.box_img {
+	transition:all .3s linear;
+}
+
+p.lbx2 {
+	margin-left: 25px;
+}
+
+div.rowspy {
+	width:10px;
+	position: absolute;
+	left: 1150px;
+	top: 10px;
+}
+
+div.rowspy2 {
+	width:10px;
+	position: absolute;
+	left: 1150px;
+	bottom: -900px;
+}
+
+
+/*
+LIGHTBOX BOTÕES
+*/
+.botao-design {
+	color: #fff;
+	font-family: 'Poiret One', sans-serif;
+	text-decoration: none;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	font-size: 60px !important;
+	text-align: center;
+	background-color: none !important;
+	margin: -30px;
+}
+
+.botao-design:hover {
+	color: #851336;
+}
+
+#prev {
+	left: 12%;
+	top: 40%
+}
+
+#next {
+	right: 12%;
+	top: 40%
+}
+
+#close {
+	top: 5px;
+	right: 12%;
+}
+
+
+
+/*
+LIGHTBOX MINIATURAS
+*/
+.fundo_lbox {
+	/*background-color: #121111;*/
+	background-image: radial-gradient(
+			circle at top left,
+			#121111,
+			#1E1A1A,
+			#851336 70%
+		);
+	width: 250px;
+	height: 300px;
+	margin-bottom: 200px;
+	display: flex;
+	/*justify-content: flex-end;*/
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+}
+
+.fundo_lbox p.lbx {
+	margin-top: 30%;
+	text-align: center;
+	text-indent: 50px;
+	width: 1300px;
+}
+
+.box_img2 {
+	width: 280px;
+	height: 220px;
+	margin-top: 250px;
+	margin-left: -280px;
+	transition:all .3s linear;
+}
+
+.lbox > .box_img2 > img {
+	width: 280px;
+	height: 220px;
+}
+
+.box_img2 > img:hover {
+	box-shadow: 0px 0px 5px #fff;
+}
+
+.box_img2:hover {
+	transform: scale(1.3);
+	cursor: crosshair;
+}
+
+div.box_img2 > img.min2 {
+	width: 5px;
+	height: 5px;
+}
+
+ 
+

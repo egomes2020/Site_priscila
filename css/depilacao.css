@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Arizonia|Audiowide|Bad+Script|Cookie|Dancing+Script|Gothic+A1|Great+Vibes|Handlee|Indie+Flower|Kalam|Kaushan+Script|La+Belle+Aurore|Marck+Script|Merienda|Montserrat|Oregano|Parisienne|Poiret+One|Poppins|Raleway|Satisfy|UnifrakturMaguntia|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|EB+Garamond|Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|EB+Garamond|Nanum+Myeongjo|Questrial&display=swap');
+/*
+GERAL
+*/
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 14pt;
+	font-family: 'Raleway', sans-serif;
+	color: #f1f1f1;
+	background-image: radial-gradient(
+			circle at top left,
+			#121111,
+			#1E1A1A,
+			#851336 70%
+		);
+}
+
+/*
+MENU
+*/
+
+.nav {
+	/*border:solid 2px #606060;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 125px;
+	/*background-color: #121111;*/
+	background-image: linear-gradient(
+		to top right,
+		 #121111 58% ,#606060
+		 );
+	box-shadow: 0px 0px 10px white;
+	position: fixed;
+}
+
+
+.logotipo {
+	/*border:solid 2px #f1f1f1;*/
+	background: url("../icones/logo_priscila.PNG") no-repeat;
+	width: 200px;
+	height: 150px;
+	margin-left: 50px;
+}
+
+ul.menu {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*border: solid 2px #f1f1f1;*/
+	margin: 5px;
+}
+
+.menu li {
+	text-transform: uppercase;
+	margin: 10px;
+	padding: 10px;
+	color: #f1f1f1;
+}
+
+
+.menu li a {
+	text-decoration: none;
+}
+
+a:hover li {
+	color: #851336;
+}
+
+span#menu {
+	padding: 10px;
+}
+
+h1 {
+	color: #f1f1f1;
+	/*margin-top: 200px;*/
+}
+
+div.paragrafo-dpl {
+	/*border: 2px solid #fff;*/
+}
+
+p.dpl {
+	margin: 20px 500px;
+	font-size: 20pt;
+}
+
+p.dpl01 {
+	padding: 20px;
+	text-align: justify;
+	text-indent: 50px;
+	width: 1250px;
+
+}
+
+p.dpl02 {
+	padding: 20px;
+	text-align: justify;
+	text-indent: 50px;
+	width: 1250px;
+	margin-top: -20px;
+}
+
+
+section {
+	width: 100%;
+/*	height: 100vh;*/
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*flex-direction: column;*/
+	flex-wrap: wrap;
+}
+
+/*img.depilacao {
+	width: 310px;
+	height: 300px;
+	margin-bottom: 50px;
+}*/
+
+div.depilacao {
+	width: 400px;
+	height: 300px;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 25%, rgba(0,0,0,1)),
+					  url("../imagens/pernas2.jpg");
+	background-position: center;
+	background-size: cover;					
+}
+
+div.fundo_depilacao {
+	width: 250px;
+	height: 100px;
+	background-color:black;
+}
+
+
+
+

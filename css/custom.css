@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Arizonia|Audiowide|Bad+Script|Cookie|Dancing+Script|Gothic+A1|Great+Vibes|Handlee|Indie+Flower|Kalam|Kaushan+Script|La+Belle+Aurore|Marck+Script|Merienda|Montserrat|Oregano|Parisienne|Poiret+One|Poppins|Raleway|Satisfy|UnifrakturMaguntia|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|EB+Garamond|Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|EB+Garamond|Nanum+Myeongjo|Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Arizonia|Audiowide|Bad+Script|Cookie|Dancing+Script|Gothic+A1|Great+Vibes|Handlee|Indie+Flower|Kalam|Kaushan+Script|La+Belle+Aurore|Marck+Script|Merienda|Montserrat|Oregano|Parisienne|Poiret+One|Poppins|Raleway|Satisfy|UnifrakturMaguntia|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Arizonia|Audiowide|Bad+Script|Cookie|Dancing+Script|Gothic+A1|Great+Vibes|Handlee|Indie+Flower|Kalam|Kaushan+Script|La+Belle+Aurore|Marck+Script|Merienda|Montserrat|Oregano|Parisienne|Poiret+One|Poppins|Raleway|Satisfy|UnifrakturMaguntia|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|EB+Garamond|Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|EB+Garamond|Nanum+Myeongjo|Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla|Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Arizonia|Audiowide|Bad+Script|Cookie|Dancing+Script|Gothic+A1|Great+Vibes|Handlee|Indie+Flower|Kalam|Kaushan+Script|La+Belle+Aurore|Marck+Script|Merienda|Montserrat|Oregano|Parisienne|Poiret+One|Poppins|Raleway|Satisfy|UnifrakturMaguntia|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Aguafina+Script|Alex+Brush|Allura|Amita|Bilbo+Swash+Caps|Charm|Dekko|Great+Vibes|Herr+Von+Muellerhoff|Italianno|Lovers+Quarrel|Mr+De+Haviland|Parisienne|Petit+Formal+Script|Pinyon+Script|Qwigley|Rouge+Script|Tangerine&display=swap');
+
+/* VARIÁVEIS */
+
+
+
+
+
+
+
+
+
+/* NAV */
+@media only screen and (min-width: 601px){
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 110px !important;
+    line-height: 65px !important;
+    background-image: linear-gradient(
+		to top right,
+		 #fff 65%,#121111
+         );
+        
+    }
+}
+
+
+/* .slider .indicators {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    background-image: radial-gradient(
+			circle at top right,
+			#121111 30%,
+			#851336  
+		);
+    height:40px;
+}
+
+.slider .slides li {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: -30px !important;
+    z-index: 1;
+    width: 103% !important;
+    height: inherit;
+    overflow: hidden;
+} */
+
+
+
+
+/* li, ul & a */
+a {
+    text-decoration: none;
+    font-size: 12pt !important;
+    /* margin: 10px !important; */
+    padding: 5px !important;
+}
+
+
+
+
+/* colors */
+
+
+
+
+
+/* h1 , h2 , h3 ... */
+h1,h2,h3,h4,h5 {
+    font-weight: bold !important;
+}
+
+
+
+
+
+/* row & col */
+
+
+
+
+/* collection */
+.collection {
+    margin: 0.5rem 0 1rem 0;
+    border: 1px solid ;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+/* responsive image */
+img.responsive-img {
+    max-width: 100%;
+    height: auto;
+    /* background-size: cover !important; */
+}
+
+
+
+
+
+
+/* botão voltar */
+div.fundo_back {
+	background-color: black;
+	width: 180px;
+	height: 50px;
+}
+
+a#back {
+	font-size: 16pt !important;
+	color: #fff;
+}
+
+
+
+/* parallax */
+.parallax-container {
+    background-color: rgba(236, 116, 116, 0.2) !important;
+}
